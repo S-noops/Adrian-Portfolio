@@ -1,0 +1,18 @@
+body {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.header-background {
+  background-image: url(images/aesthgren.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.name-caption {
+  text-align: center;
+}
+
+.name-caption-text {
+  font-size: 40px;
+  color: darkslategray;
+}
