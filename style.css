@@ -1,18 +1,89 @@
+/* Overall Page */
+
+* {
+  box-sizing: content-box;
+}
+
+html body {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Vazirmatn", sans-serif;
 }
 
-.header-background {
-  background-image: url(images/aesthgren.jpg);
+/* Top of Page Banner*/
+
+.top-banner {
+  width: auto;
+  height: 500px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.banner-background {
+  background-image: url(images/4kgren.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 500px;
+  padding-top: 0%;
 }
 
 .name-caption {
   text-align: center;
+  font-weight: bold;
 }
 
 .name-caption-text {
-  font-size: 40px;
-  color: darkslategray;
+  font-size: 60px;
+  color: bisque;
+  padding-top: 175px;
+  margin: 0 auto;
+}
+
+/* Main Content */
+main {
+  background-color: #111111;
+  height: 700px;
+  margin: 0 auto;
+}
+
+/* Nav Bar */
+.nav-bar {
+  background-color: #734B5F;
+  height: 125px;
+  width: auto;
+}
+
+.nav-bar-items {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.item {
+  padding: 16px;
+  margin: 0 auto;
+  width: 200px;
+  display: inline-block;
+  position: inherit;
+}
+
+.item a {
+  color: bisque;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none !important;
+  position: absolute;
+}
+
+.item a :hover{
+  background: #272526;
+  color: bisque;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 5px 15px;
 }
