@@ -10,7 +10,7 @@ html body {
 }
 
 body {
-  font-family: "Vazirmatn", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Top of Page Banner*/
@@ -23,7 +23,7 @@ body {
 }
 
 .banner-background {
-  background-image: url(images/4kgren.jpg);
+  background-image: url('C:/Users/Adrian R-Martinez/OneDrive/Desktop/Projects/Adrian-Portfolio/resources/images/4kgren.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -38,7 +38,7 @@ body {
 }
 
 .name-caption-text {
-  font-size: 60px;
+  font-size: 75px;
   color: bisque;
   padding-top: 175px;
   margin: 0 auto;
@@ -80,10 +80,11 @@ main {
   position: absolute;
 }
 
-.item a :hover{
+.item a :hover {
   background: #272526;
   color: bisque;
   border-radius: 30px;
   display: inline-block;
   padding: 5px 15px;
+  transition: .3s all ease;
 }
