@@ -13,61 +13,23 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Top of Page Banner*/
-
-.top-banner {
-  width: auto;
-  height: 500px;
-  padding: 0 auto;
-  margin: 0 auto;
-}
-
-.banner-background {
-  background-image: url('C:/Users/Adrian R-Martinez/OneDrive/Desktop/Projects/Adrian-Portfolio/resources/images/4kgren.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  width: 100%;
-  height: 500px;
-  padding-top: 0%;
-}
-
-.name-caption {
-  text-align: center;
-  font-weight: bold;
-}
-
-.name-caption-text {
-  font-size: 75px;
-  color: bisque;
-  padding-top: 175px;
-  margin: 0 auto;
-}
-
-/* Main Content */
-main {
-  background-color: #111111;
-  height: 700px;
-  margin: 0 auto;
-}
-
 /* Nav Bar */
+
 .nav-bar {
-  background-color: #734B5F;
-  height: 125px;
-  width: auto;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  top: 20px;
 }
 
 .nav-bar-items {
   text-align: center;
-  padding-top: 30px;
+  padding: 0px 0px;
   margin: 0 auto;
 }
 
 .item {
-  padding: 16px;
-  margin: 0 auto;
-  width: 200px;
+  width: 160px;
   display: inline-block;
   position: inherit;
 }
@@ -87,4 +49,45 @@ main {
   display: inline-block;
   padding: 5px 15px;
   transition: .3s all ease;
+}
+
+/* Top of Page Banner*/
+
+.banner-area {
+  background-image: url('C:/Users/Adrian R-Martinez/OneDrive/Desktop/Projects/Adrian-Portfolio/resources/images/4kgren.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  min-height: 960px;
+  padding-top: 0%;
+}
+
+.container {
+  width: fit-content;
+  max-width: 1200px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.name-caption {
+  text-align: center;
+  font-weight: bold;
+}
+
+.name-caption-text {
+  font-size: 75px;
+  color: bisque;
+}
+
+/* Main Content */
+main {
+  background-color: #111111;
+  height: 700px;
+  margin: 0 auto;
 }
