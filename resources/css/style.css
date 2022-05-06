@@ -70,6 +70,12 @@ body {
   text-decoration: none !important;
 }
 
+.logo-item a :hover {
+  border-bottom: 3px solid white;
+  padding: 2px 5px;
+  transition: .5s all ease;
+}
+
 /* Right side of Navbar */
 
 .nav-bar-items-right {
@@ -201,7 +207,7 @@ footer {
     #0c0d0ef5, black
   );
   width: 100%;
-  min-height: 250px;
+  min-height: 225px;
 }
 
 #footer-container {
@@ -254,6 +260,22 @@ footer {
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
+  
+  -webkit-filter: brightness(100%);
+	-moz-filter: brightness(100%);
+	-o-filter: brightness(100%);
+	-ms-filter: brightness(100%);
+	filter: brightness(100%);
+  transition: .1s ease;
+}
+
+.icon-list a:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .instagram {
